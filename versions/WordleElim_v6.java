@@ -23,7 +23,7 @@ public class Runner {
 		ArrayList<String> possible=new ArrayList<String>();
 		try {
 			BufferedReader 
-				br=new BufferedReader(new FileReader(".\\supplemental\\wordleWords.txt"));
+				br=new BufferedReader(new FileReader(".\\wordleWords.txt"));
 			String s;
 			while(((s=br.readLine())!=null)) {
 				if(s.length()==5) {
