@@ -7,7 +7,7 @@ public class WordleElim_v1 {
 			ArrayList<String> save=new ArrayList<String>();
 			try {
 				BufferedReader 
-					br=new BufferedReader(new FileReader("C:\\Users\\amalf\\Code\\Java\\wordleWords.txt"));
+					br=new BufferedReader(new FileReader(".\\wordleWords.txt"));
 				String s;
 				while(((s=br.readLine())!=null)) {
 					if(s.length()==5) {
